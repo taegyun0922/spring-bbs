@@ -25,5 +25,5 @@ public class BbsDao {
         return template.update(query,user.getUserId(), user.getUserPwd());
 
     }
-    
+        
 }
