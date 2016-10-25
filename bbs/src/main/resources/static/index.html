@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Login Page</title>
+<meta charset="utf-8">
+</head>
+<body>
+    <div id="login-title-area">
+        <h1>DW SYS</h1>
+
+        <h3>Login Page</h3>
+    </div>
+
+    <hr />
+    <form action="/login/" method="post" >
+        <fieldset>
+            <div id="login-input-area">
+                <div id="input-area-id">
+                    <b>ID:</b> <input type="text" name="user_id"
+                        placeholder="Username or Email" />
+                </div>
+
+                <div id="input-area-pwd">
+                    <b>PASSWORD:</b> <input type="password" name="user_pwd"
+                        placeholder="Password" />
+                </div>
+                
+                <div id="remember_me">
+                    <input type="checkbox" name="remember_me" id="remember_me">
+                    Remember me on this computer
+                </div>
+                
+                <div id="input-area-submit">
+                    <input type="submit" value="Sign In" />
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
