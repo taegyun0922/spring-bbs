@@ -15,8 +15,7 @@ public class BbsDao {
     
     public List<User> listForBeanPropertyRowMapper(){
         String query = "SELECT * FROM user";
-        
-            
+                    
         return template.query(query, new BeanPropertyRowMapper<User>(User.class));
     }
     

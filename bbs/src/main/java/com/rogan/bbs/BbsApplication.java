@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
+// main route
 @RestController
 @SpringBootApplication
 public class BbsApplication {
@@ -22,15 +23,37 @@ public class BbsApplication {
 	@RequestMapping("/")
 	@ResponseBody
 	public ModelAndView index() throws Exception {
+		
 		ModelAndView mav = new ModelAndView("index.html");
+		
 		return mav;
 	}
 
-	@RequestMapping("/login/")
+/*	@RequestMapping("/login/")
 	public String login(@RequestParam("user_id") String id, @RequestParam("user_pwd") String pwd) {
+		 
 		return "ID = " + id + "PWD =" + pwd;
 
+	}*/
+	
+	/*public static boolean isUserAuthorized(User user) {
+	
+		
+		char id, pwd;
+		
+		if (id==){
+			
+		}
+		 {
+			
+			return true;
+		}
+		 
+		 System.out.println("plaese check your account for Auth");		 
+		 return false;
 	}
+		*/
+	
 
 	@RequestMapping("/test/")
 	public List<User> getAllListForBeanPropertyRowMapper() {
@@ -51,6 +74,8 @@ public class BbsApplication {
 			return "Insert hello: " + id ;
 		}
 	}
+	
+	
 
 	public static void main(String[] args) {
 		SpringApplication.run(BbsApplication.class, args);
