@@ -1,0 +1,64 @@
+#header div{
+    border: 2px dashed cyan;
+    float: left;
+    height: 100px;
+}
+
+#header-title{
+    width: 60%;
+    color: white;
+    text-align: center;
+    background-color: cornflowerblue;
+
+    }
+
+#header-user{
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+
+#header-user img{
+    padding-top: 25px;
+    width: 50px;
+    height: auto;
+    
+}
+
+#header-search{
+    width: 20%;
+    
+}
+
+#header-search input[type=text]{
+    width: 100%;
+    border-radius: 25px;
+    border:2px solid #ccc;
+
+    box-sizing: border-box;
+    margin-top: 27px;
+    padding: 12px 20px 12px 40px;
+
+    background-image: url('search-icon.png');
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 20px;
+
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    }
+
+    #header-search input[type-text]:focus { 
+        width : 100%;
+    }
+
+/*
+#left-nav{  
+
+}
+
+
+#main-contents{
+
+    
+}*/
