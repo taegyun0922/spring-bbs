@@ -52,7 +52,7 @@ body div{
     margin-top: 27px;
     padding: 12px 0px 12px 40px;
 
-    background-image: url('search-icon.png');
+    background-image: url('image/search-icon.png');
     background-repeat: no-repeat;
     background-position: 10px;
     background-size: 20px 20px;
@@ -65,13 +65,20 @@ body div{
         width : 100%;
     }
 
-/*숙제 좌측의 빈칸 없애기 - 모든 스타일 강제 표시 금지*/
-#left-nav ul{
-    list-style: none;
-    padding-left:0px;
+/*왼쪽 메뉴*/
+#left-nav {
+    float: left;
     width: 15%;
 }
 
+/*좌측의 빈칸 없애기*/
+#left-nav ul{
+    list-style: none;
+    padding-left:0px;
+    width: 100%;
+}
+
+/* 테투리 색깔, 두께, 각 메뉴별 높이, 메뉴별 공간, */
 #left-nav ul li{
     border-bottom: 2px solid lightgrey;
     height: 40px;
@@ -81,8 +88,34 @@ body div{
     font-size: 2.0vw;
 }
 
+
+/*글자 색깔, 두께, 데코레이션 강제 표시 해지*/
 #left-nav ul li a{
     color: gray;
     text-decoration: none;
     font-weight: bold;
+}
+
+/*메인 버튼 설정 */
+
+#main-contents div{
+    border: 1px dashed  purple;
+
+    float: left;
+
+    width: 28%;
+    
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#main-contents ul{
+    list-style: none;
+}   
+
+#main-contents ul li{
+    border-bottom: 2px solid red;
+    text-align: center;
+    height: 40px;
+
 }
