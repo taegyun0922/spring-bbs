@@ -1,0 +1,6 @@
+CREATE DATABASE bbs
+ CHARACTER SET utf8
+ DEFAULT CHARACTER SET utf8
+ COLLATE utf8_general_ci
+ DEFAULT COLLATE utf8_general_ci
+ ;
