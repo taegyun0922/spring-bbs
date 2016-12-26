@@ -1,0 +1,145 @@
+body{
+	margin: auto;
+	width: 80%;
+}
+
+body div{
+	/*border: 1px solid red;*/
+    overflow: hidden;
+}
+
+#header {
+    margin: auto;
+    float: right;
+    width:86%;
+    margin-bottom: 50px;
+}
+#header div{
+    /*border: 2px dashed cyan;*/
+    float: left;
+    height: 100px;
+}
+
+#header-title{
+    width: 60%;
+    color: white;
+    text-align: center;
+    background-color: cornflowerblue;
+
+    }
+
+#header-user{
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+#header-user img{
+	
+	border-radius:25px;
+	margin-top: 25px;
+	
+	width : 50px;
+	heigh : auto;
+   
+
+}
+
+#header-search{
+    width: 20%;
+}
+
+#header-search input[type=text]{
+    float: right;
+
+    width: 1%;
+    border-radius: 25px;
+    border:2px solid #ccc;
+
+    box-sizing: border-box;
+    margin-top: 27px;
+    padding: 12px 0px 12px 40px;
+
+    background-image: url('/images/search-icon.png');
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 20px 20px;
+
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    }
+
+    #header-search input[type-text]:focus {
+        width : 100%;
+    }
+
+/*왼쪽 메뉴*/
+#left-nav {
+    float: left;
+    width: 15%;
+}
+
+/*좌측의 빈칸 없애기*/
+#left-nav ul{
+    list-style: none;
+    padding-left:0px;
+    width: 100%;
+}
+
+/* 테투리 색깔, 두께, 각 메뉴별 높이, 메뉴별 공간, */
+#left-nav ul li{
+    border-bottom: 2px solid lightgrey;
+
+    height: 40px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+    font-size: 2.0vw;
+
+    width: 80%;
+    margin: auto;
+
+}
+
+/*글자 색깔, 두께, 데코레이션 강제 표시 해지*/
+#left-nav ul li a{
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*메인 버튼 설정 */
+
+#main-contents {
+    width: 75%;
+    margin: auto;
+}
+#main-contents div{
+    border: 1px dashed  purple;
+
+    border-radius: 20px;
+
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-top: 2%;
+   margin-bottom: 2%;
+
+   height: 100px;
+
+   text-align: center;
+   line-height: 100px;
+
+    float: left;
+    width: 28%;
+
+    text-decoration: none;
+    
+}
+
+#main-contents div:hover {
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+}

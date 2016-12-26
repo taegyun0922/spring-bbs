@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/game_list.css">
+    <title>Test page</title>
+</head>
+
+<body>
+    <div id="header">
+        <div id="header-title">
+            <h1> ゲームリスト </h1>
+        </div>
+
+        <div id="header-user">
+            <a href="">
+                <img data-th-src = "@{'images'+ ${user_pic_src}}" 
+                 src="images/user-icon.png" 
+                 alt= "user-icon image"
+                 data-th-title = "${user_pic_title}"
+                 title = guest/>
+            </a>
+        </div>
+
+        <div id="header-search">
+            <input type="text" name="search" placeholder="Search.." />
+        </div>
+    </div>
+
+    <div id="left-nav">
+        <ul>
+            <li><a href="test.html">첫번째</a></li>
+            <li><a href="test.html">두번째</a></li>
+            <li><a href="test.html">세번째</a></li>
+            <li><a href="test.html">네번째</a></li>
+            <li><a href="test.html">다섯번째</a></li>
+            <li><a href="test.html">여섯번째</a></li>
+        </ul>
+    </div>
+
+    <div id="main-contents">
+        <div>첫번째</div>
+        <div>두번째</div>
+        <div>세번째</div>
+        <div>네번째</div>
+        <div>다섯번째</div>
+        <div>여섯번째</div>
+    </div>
+</body>
+
+</html>
