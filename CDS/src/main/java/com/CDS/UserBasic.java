@@ -7,35 +7,35 @@ public class UserBasic {
 	private String user_name;
 	private String user_pic_sm;
 
-	public String getUser_id() {
+	public String getUserId() {
 		return user_id;
 	}
 
-	public void setUser_id(String user_id) {
+	public void setUserId(String user_id) {
 		this.user_id = user_id;
 	}
 
-	public String getUser_pwd() {
+	public String getUserPwd() {
 		return user_pwd;
 	}
 
-	public void setUser_pwd(String user_pwd) {
+	public void setUserPwd(String user_pwd) {
 		this.user_pwd = user_pwd;
 	}
 
-	public String getUser_name() {
+	public String getUserName() {
 		return user_name;
 	}
 
-	public void setUser_name(String user_name) {
+	public void setUserName(String user_name) {
 		this.user_name = user_name;
 	}
 
-	public String getUser_pic_sm() {
+	public String getUserPicSm() {
 		return user_pic_sm;
 	}
 
-	public void setUser_pic_sm(String user_pic_sm) {
+	public void setUserPicSm(String user_pic_sm) {
 		this.user_pic_sm = user_pic_sm;
 	}
 

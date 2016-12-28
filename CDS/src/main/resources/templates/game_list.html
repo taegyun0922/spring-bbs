@@ -39,13 +39,18 @@
         </ul>
     </div>
 
-    <div id="main-contents">
+    <!-- <div id="main-contents">
         <div>첫번째</div>
         <div>두번째</div>
         <div>세번째</div>
         <div>네번째</div>
         <div>다섯번째</div>
         <div>여섯번째</div>
+    </div> -->
+    
+    <div id="main-contents">
+    	<div data-th-each = "gameItem : ${game_list}"
+    		  data-th-text = "${gameItem.gameName}"></div>
     </div>
 </body>
 

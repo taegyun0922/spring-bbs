@@ -25,7 +25,7 @@ public class HelloController {
 		String result = "user list : ";
 
 		for (UserBasic user : userList) {
-			result += user.getUser_id() + " ( " + user.getUser_name() + " ), ";
+			result += user.getUserId() + " ( " + user.getUserName() + " ), ";
 		}
 
 		return result;
@@ -56,7 +56,7 @@ public class HelloController {
 		
 		UserBasic result = userBasicDao.getUserInfoBy(userId, userPwd);	
 		
-		return "ID: "+result.getUser_id() + " PWD: "+ result.getUser_pwd() + " NAME: "+ result.getUser_name() 
-		 + " SM: " + result.getUser_pic_sm();
+		return "ID: "+result.getUserId() + " PWD: "+ result.getUserPwd() + " NAME: "+ result.getUserName() 
+		 + " SM: " + result.getUserPicSm();
 	}
 }
