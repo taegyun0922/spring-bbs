@@ -34,4 +34,7 @@ public class ViewController {
 		
 		return view;
 	}
+	
+//	@RequestMapping("/login")
+//	public ModelAndView get
 }
