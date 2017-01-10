@@ -10,12 +10,9 @@ body{
 	
 }
 
-#login-form{
-	
-}
 
 #login-content{
-	
+	margin: auto;	
 	margin-top: 50px;
 	
 	width: 30%;
@@ -71,6 +68,8 @@ body{
 	border-radius: 10px;
 	
 	cursor: pointer;
+	width: 100%;
+	background-color:#4CAF50;
 }
 
 #close-btn{
@@ -86,4 +85,7 @@ body{
 	border-radius: 10px;
 	
 	cursor: pointer;
+	
+	width: 25%;
+	background-color:#f44336;
 }

@@ -39,4 +39,8 @@ dependencies {
 	
 	//for mysql 
 	compile('mysql:mysql-connector-java')
+	
+	// for secure
+	compile('org.springframework.boot:spring-boot-starter-security')
+	
 }
