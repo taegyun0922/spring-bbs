@@ -89,3 +89,8 @@ body{
 	width: 25%;
 	background-color:#f44336;
 }
+
+#password-forget-info{
+	float : right;
+	padding : 18px;
+}

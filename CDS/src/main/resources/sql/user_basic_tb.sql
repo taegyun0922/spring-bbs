@@ -1,8 +1,9 @@
-CREATE TABLE user_basic_tb (
+CREATE TABLE user_basic_tbl (
 user_id VARCHAR(100) NOT NULL,
 user_pwd VARCHAR(100) NOT NULL,
 user_name VARCHAR(100) NOT NULL,
 user_pic_sm VARCHAR(100) NOT NULL,
+enabled tinyInt(1) NOT NULL,
 PRIMARY KEY(user_id),
 UNIQUE(user_pic_sm))
 ;

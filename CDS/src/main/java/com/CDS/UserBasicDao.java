@@ -34,13 +34,13 @@ public class UserBasicDao {
 		return conunt == 0 ? false : true;
 	}
 
-	public UserBasic getUserInfoBy(String userId, String userPwd) {
+	public UserBasic getUserInfoBy(String userId) {
 		String sql = "select * from user_basic_tbl WHERE user_id =:user_id AND user_pwd =:user_pwd";
 		System.out.println(sql);
 		
 		MapSqlParameterSource params = new MapSqlParameterSource();
 		params.addValue("user_id", userId);
-		params.addValue("user_pwd", userPwd);
+		//params.addValue("user_pwd", userPwd);
 		
 		return paramJdbcTemplate.query(sql, params,new BeanPropertyRowMapper<UserBasic>(UserBasic.class)).get(0);
 		

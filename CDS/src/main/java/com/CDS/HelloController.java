@@ -54,7 +54,7 @@ public class HelloController {
 			@RequestParam("user_pwd") String userPwd 
 			) {
 		
-		UserBasic result = userBasicDao.getUserInfoBy(userId, userPwd);	
+		UserBasic result = userBasicDao.getUserInfoBy(userId);	
 		
 		return "ID: "+result.getUserId() + " PWD: "+ result.getUserPwd() + " NAME: "+ result.getUserName() 
 		 + " SM: " + result.getUserPicSm();
