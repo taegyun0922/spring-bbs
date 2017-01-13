@@ -35,8 +35,9 @@ public class UserBasicDao {
 	}
 
 	public UserBasic getUserInfoBy(String userId) {
-		String sql = "select * from user_basic_tbl WHERE user_id =:user_id AND user_pwd =:user_pwd";
-		System.out.println(sql);
+		//String sql = "select * from user_basic_tbl WHERE user_id =:user_id AND user_pwd =:user_pwd";
+		String sql = "select * from user_basic_tbl WHERE user_id =:user_id";
+		//System.out.println(sql);
 		
 		MapSqlParameterSource params = new MapSqlParameterSource();
 		params.addValue("user_id", userId);
